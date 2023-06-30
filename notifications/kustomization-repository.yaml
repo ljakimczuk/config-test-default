@@ -7,3 +7,10 @@ metadata:
     kustomize.toolkit.fluxcd.io/ssa: merge
   name: gitops-test-repository
   namespace: default
+spec:
+  prune: false
+  sourceRef:
+    kind: GitRepository
+    name: gitops-test-repository
+    namespace: default
+  interval: 5m
