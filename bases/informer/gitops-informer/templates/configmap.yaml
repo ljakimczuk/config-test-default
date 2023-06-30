@@ -4,4 +4,4 @@ metadata:
   name: flux-gitops-informer-configuration
   namespace: default
 data:
-  reconciliationRequestAt: "{{ now | unixEpoch }}"
+  reconciliationRequestAt: "{{ now | date "2006-01-02-15:04:05-0700" }}"
