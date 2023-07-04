@@ -1,2 +1,2 @@
-resources: []
-  #- kustomization-repository.yaml
+resources:
+  - kustomization-repository.yaml
