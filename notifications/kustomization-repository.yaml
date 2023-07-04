@@ -1,8 +1,10 @@
 apiVersion: kustomize.toolkit.fluxcd.io/v1beta2
 kind: Kustomization
 metadata:
+  labels:
+    testlabel: test
   annotations:
-    reconcile.fluxcd.io/requestedAt: "${reconciliationRequestAt:=initial}"
+    #reconcile.fluxcd.io/requestedAt: "${reconciliationRequestAt:=initial}"
     kustomize.toolkit.fluxcd.io/prune: disabled
     kustomize.toolkit.fluxcd.io/ssa: merge
   name: gitops-test-repository
