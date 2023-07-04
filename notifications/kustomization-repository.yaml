@@ -12,4 +12,4 @@ spec:
     kind: GitRepository
     name: gitops-test-repository
     namespace: default
-  interval: 10m
+  interval: 15m
