@@ -1,1 +1,1 @@
-Test.
+# Default configuration for apps.
