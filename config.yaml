@@ -3,3 +3,6 @@ logging:
 
 registry:
   domain: docker.io
+
+test:
+  test1: test2
