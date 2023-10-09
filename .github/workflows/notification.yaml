@@ -11,7 +11,7 @@ jobs:
   notify:
     runs-on: ubuntu-latest
     steps:
-      - name: Notify updater
+      - name: Notify updater of change
         run: |
           curl -X POST 'https://api.github.com/repos/ljakimczuk/config-test-updater/actions/workflows/trigger.yaml/dispatches' \
           -H 'Accept: application/vnd.github.everest-preview+json' \
