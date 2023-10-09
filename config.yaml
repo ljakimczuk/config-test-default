@@ -5,4 +5,4 @@ registry:
   domain: docker.io
 
 test:
-  test1: test4
+  test1: test5
